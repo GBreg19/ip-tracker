@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "RubikReg";
+  src: url(./assets//fonts//Rubik-Regular.ttf);
+}
+@font-face {
+  font-family: "RubikMed";
+  src: url(./assets//fonts//Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: "RubikBold";
+  src: url(./assets//fonts//Rubik-Bold.ttf);
+}
